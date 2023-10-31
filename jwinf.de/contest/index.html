@@ -1,0 +1,1744 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #fafafa;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=450, maximum-scale=1">
+    
+        <title>Jugendwettbewerb Informatik: Programmieren – leichter, als du denkst!</title>
+    
+    <link rel="stylesheet" href="/static/lib/bulma/medal-bulma-0.9.4.css">
+    <link rel="icon" href="/static/images/favicon.png" type="image/png">
+    <style>
+       ::placeholder {
+          color: #888 !important;
+       }
+       .blogin {
+          padding: 0px;
+          margin: -20px;
+       }
+       .hoverfade:hover {
+         filter: brightness(95%) saturate(110%);
+       }
+    </style>
+  </head>
+  <body style="background: white;">
+    <div class="container" style="padding: 1.5rem;">
+      <div class="columns">
+        <div class="column is-7">
+          
+            <a href="/">
+              <img style="float:left; margin-right: 10px; height: 70px;" src="/static/images/logo.png">
+            </a>
+          
+          <h1 class="title">Jugendwettbewerb Informatik</h1>
+          <h2 class="subtitle">Programmieren – leichter, als du denkst!</h2>
+        </div>
+        <div class="column is-5">
+          
+            
+            
+            <form action="/clogin" method="post" autocomplete="off" class="columns blogin">
+              <div class="column is-8"><input class="input is-small" type="text" name="code" placeholder="Gruppencode oder Logincode" autofocus></div>
+              <div class="column"><input class="button is-small is-success" type="submit" value="↪ &nbsp; Login" style="font-weight:bold;">
+                 &nbsp; <a href="https://bwinf.de/jugendwettbewerb/jwinflogin">
+                  <img src="/static/images/icons/help.svg" style="filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height: 2.5ex;">
+                </a>
+              </div>
+            </form>
+            
+              
+                <div class="columns blogin">
+                  <div class="column">
+                     <a class="button is-small is-info"  style="font-weight:bold;float:right;" href="https://login.bwinf.de/app/PMS/wa/OAuth2/authorize?client_id=bwinf-junior-league&amp;scope=authenticate&amp;response_type=code&amp;state=42&amp;redirect_uri=https://jwinf.de/oauth/pms/">BWINF-Login / Lehrkraft-Login</a>
+                     <div style="clear:both;"></div>
+                  </div>
+                </div>
+              
+            
+            
+          
+        </div>
+      </div>
+
+      
+<div class="columns">
+   <div class="column is-12 is-offset-1">
+      <nav class="breadcrumb" aria-label="breadcrumbs">
+         <ul>
+            <li></li>
+            <li><a href="/">JWINF</a></li>
+            <li class="is-active"><a href=".">Wettbewerbe</a></li>
+         </ul>
+      </nav>
+   </div>
+</div>
+
+      
+      <div class="columns">
+        <div class="column is-4 is-offset-2">
+          <div style="min-height: 400px; margin-bottom:100px;">
+            <h3 class="title is-4">Wettbewerbe</h3>
+            
+              <a href="/contest/235">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2023 Runde 3</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/220">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2023 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/214">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2023 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/215">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2023 Runde 1: Jgst. 7 – 9</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/216">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2023 Runde 1: ab Jgst. 10</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/87">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2022 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/73">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2022 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/74">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2022 Runde 1: Jgst. 7 – 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/75">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2022 Runde 1: Jgst. 9 – 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/217">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2023 Probewettbewerb Klasse 3 bis 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/76">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2022 Probewettbewerb Klasse 3 bis 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/77">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2022 Probewettbewerb Klasse 7 bis 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/218">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2023 Probewettbewerb Klasse 7 bis 9</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/222">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Probewettbewerb Informatik 2023 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/78">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2022 Probewettbewerb Klasse 9 bis 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/85">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Probewettbewerb Informatik 2022 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/219">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2023 Probewettbewerb ab Klasse 10</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/178">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2022 Runde 3</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/46">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2021 Runde 3</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/45">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2021 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/42">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2021 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/43">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2021 Runde 1: Jgst. 7 – 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/44">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb Informatik 2021 Runde 1: Jgst. 9 – 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/41">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2021 Probewettbewerb Klasse 3 bis 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/39">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2021 Probewettbewerb Klasse 7 bis 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/40">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Jugendwettbewerb 2021 Probewettbewerb Klasse 9 bis 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <div class="columns">
+        <div class="column is-4 is-offset-2">
+          <div style="min-height: 400px; margin-bottom:100px;">
+            <h3 class="title is-4">Herausforderungen</h3>
+            
+              <a href="/contest/230">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung:  Wettbewerb 2023 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/231">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2023 Runde 1: Jgst. 7 – 9</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/232">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2023 Runde 1: ab Jgst. 10</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/233">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2023 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/190">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2022 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/191">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2022 Runde 1: Jgst. 7 – 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/192">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2022 Runde 1: Jgst. 9 – 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/193">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2022 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/49">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2021 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/50">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2021 Runde 1: Jgst. 7 – 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/51">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2021 Runde 1: Jgst. 9 – 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/52">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2021 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/21">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2020 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/22">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2020 Runde 1: Jgst. 7 – 8</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/20">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2020 Runde 1: Jgst. 9 – 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/36">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2020 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/29">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2019 Runde 1: Jgst. 3 – 6</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/28">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2019 Runde 1: Jgst. 7 – 13</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/30">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Herausforderung: Wettbewerb 2019 Runde 2</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <div class="columns">
+        <div class="column is-4 is-offset-2">
+          <div style="min-height: 400px; margin-bottom:100px;" id="movefrom">
+            <h3 class="title is-4">Trainingsaufgaben</h3>
+            
+              <a href="/contest/224">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Arbeitsheft Algorithmen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/54">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Grundbausteine – Einführung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/55">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Schildkröte – Einführung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/56">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Wiederholungen – Vertiefung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/57">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Wiederholungen – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/198">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Bedingte Anweisungen – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/59">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Ein-/Ausgabe – Einführung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/60">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Variablen und Logik – Einführung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/61">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Variablen und Logik – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/62">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Ein-/Ausgabe – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/63">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Funktionen – Einführung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/64">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Funktionen – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/65">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Listen – Einführung</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/66">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Listen – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/67">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Schwere Aufgaben – Übungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/70">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Grundbausteine (Python)</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/209">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Schildkröte – Einführung (Python)</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/210">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Wiederholungen – Vertiefung (Python)</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/211">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Wiederholungen – Übungen (Python)</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/223">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Bedingte Anweisungen – Übungen (Python)</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/1">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Einführungsaufgaben</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/2">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Schildkröte: Einführungsaufgaben</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/35">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Wiederholungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/34">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Schildkröte: Wiederholungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/31">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Bedingte Anweisungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/3">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Ein-/Ausgabe</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/7">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Variablen und Logik</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/5">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Funktionen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/32">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Listen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/4">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Schwere Aufgaben</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/53">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Rekursion</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/38">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Einführung [Python]</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+              <a href="/contest/71">
+                <div class="notification is-success" style="margin-bottom:20px; padding: 4px;">
+                  <div class="media">
+                    <div class="media-left">
+                      
+                    </div>
+                    <div class="media-content">
+                      <div class="content" style="padding:8px 0px 0px;">
+                        <h3 class="title is-5">Freie Umgebungen</h3>
+                      </div>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-48x48" style="margin: 8px 8px 8px 0px;">
+                        
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            
+          </div>
+        </div>
+        <div class="column is-4">
+          <div style="min-height: 400px; margin-bottom:100px;" id="moveto">
+            <h3 class="title is-4" id="movetotitle">&nbsp;</h3>
+
+          </div>
+        </div>
+      </div>
+      
+
+      
+
+<script>
+document.getElementById("movefrom").childNodes.forEach((node) => {
+  if (node.innerHTML) {
+    if (node.innerHTML.includes("Python")) {
+      document.getElementById("moveto").appendChild(node);
+      document.getElementById("movetotitle").innerText = "Python-Aufgaben"
+    }
+  }
+});
+</script>
+
+
+    </div>
+    <footer class="footer" style="margin-top: 150px;">
+      <div class="content has-text-centered">
+        <p style="margin-bottom:80px; margin-top:0px">
+          
+            <nobr>Medal v1.15.1</nobr>
+            &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+          
+          
+            <a href="https://git.bwinf.de/bwinf/medal">Quellcode</a>
+          
+          
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <a href='https://bwinf.de/jugendwettbewerb/datenschutz/'>Datenschutz</a>
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <a href='https://bwinf.de/impressum/'>Impressum</a>
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <nobr>🖂 <a href='mailto:jugendwettbewerb@bwinf.de'>jugendwettbewerb@bwinf.de</a></nobr>
+            
+          
+          
+        </p>
+        <p>
+          <img src="/static/images/dachmarke.svg" style="width:119px; height:72px;">
+        <p>
+        <p style="max-width: 1000px; margin: auto;">
+           Alle Aufgaben unter <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>.<br />
+
+           Der <strong>Jugendwettbewerb Informatik</strong> ist einer der
+          <a href="https://bwinf.de">Bundesweiten Informatikwettbewerbe</a>.
+
+          Die Bundesweiten Informatikwettbewerbe sind von der Kultusministerkonferenz geförderte Schülerwettbewerbe und stehen unter der Schirmherrschaft des Bundespräsidenten.
+        </p>
+        <p style="margin-bottom:-20px; margin-top:-35px">
+          Träger: &nbsp; &nbsp;  &nbsp;  &nbsp;
+          <a class="sponsor-item" href="https://www.gi.de/" target="_blank">
+            <img src="/static/images/traeger_tr_gi.png" alt="Logo Gesellschaft für Informatik (GI)" title="Gesellschaft für Informatik (GI)" style="vertical-align: middle; margin:35px;">
+          </a>
+          <a class="sponsor-item" href="http://www.iuk.fraunhofer.de/" target="_blank">
+            <img src="/static/images/traeger_tr_frauenhofer.png" alt="Logo Fraunhofer-Verbund IUK-Technologie" title="Fraunhofer-Verbund IUK-Technologie" style="vertical-align: middle; margin:35px;">
+          </a>
+          <a class="sponsor-item" href="https://www.mpi-inf.mpg.de/" target="_blank">
+            <img src="/static/images/traeger_tr_mpi.png" alt="Logo Max-Planck-Institut für Informatik" title="Max-Planck-Institut für Informatik" style="vertical-align: middle; margin:35px;margin-left:27px;">
+          </a>
+          <a class="sponsor-item" href="https://www.bmbf.de/" target="_blank">
+            <img src="/static/images/traeger_tr_bmbf.png" alt="Logo Bundesministerium für Bildung und Forschung" title="Bundesministerium für Bildung und Forschung" style="vertical-align: middle; margin:35px;margin-left:0px;">
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+

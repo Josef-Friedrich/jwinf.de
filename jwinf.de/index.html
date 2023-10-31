@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #fafafa;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=450, maximum-scale=1">
+    
+        <title>Jugendwettbewerb Informatik: Programmieren – leichter, als du denkst!</title>
+    
+    <link rel="stylesheet" href="/static/lib/bulma/medal-bulma-0.9.4.css">
+    <link rel="icon" href="/static/images/favicon.png" type="image/png">
+    <style>
+       ::placeholder {
+          color: #888 !important;
+       }
+       .blogin {
+          padding: 0px;
+          margin: -20px;
+       }
+       .hoverfade:hover {
+         filter: brightness(95%) saturate(110%);
+       }
+    </style>
+  </head>
+  <body style="background: white;">
+    <div class="container" style="padding: 1.5rem;">
+      <div class="columns">
+        <div class="column is-7">
+          
+            <a href="/">
+              <img style="float:left; margin-right: 10px; height: 70px;" src="/static/images/logo.png">
+            </a>
+          
+          <h1 class="title">Jugendwettbewerb Informatik</h1>
+          <h2 class="subtitle">Programmieren – leichter, als du denkst!</h2>
+        </div>
+        <div class="column is-5">
+          
+            
+            
+            <form action="/clogin" method="post" autocomplete="off" class="columns blogin">
+              <div class="column is-8"><input class="input is-small" type="text" name="code" placeholder="Gruppencode oder Logincode" autofocus></div>
+              <div class="column"><input class="button is-small is-success" type="submit" value="↪ &nbsp; Login" style="font-weight:bold;">
+                 &nbsp; <a href="https://bwinf.de/jugendwettbewerb/jwinflogin">
+                  <img src="/static/images/icons/help.svg" style="filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height: 2.5ex;">
+                </a>
+              </div>
+            </form>
+            
+              
+                <div class="columns blogin">
+                  <div class="column">
+                     <a class="button is-small is-info"  style="font-weight:bold;float:right;" href="https://login.bwinf.de/app/PMS/wa/OAuth2/authorize?client_id=bwinf-junior-league&amp;scope=authenticate&amp;response_type=code&amp;state=42&amp;redirect_uri=https://jwinf.de/oauth/pms/">BWINF-Login / Lehrkraft-Login</a>
+                     <div style="clear:both;"></div>
+                  </div>
+                </div>
+              
+            
+            
+          
+        </div>
+      </div>
+
+      
+
+      
+
+      
+        
+          <div class="columns" id="browser-notification-0">
+            <div class="column is-8 is-offset-2">
+              <div class="notification is-info">
+                <b>Wartungsarbeiten</b>: Heute (21. Februar) um etwa 20:00 wird die Wettbewerbsplattform jwinf.de für Wartungsarbeiten heruntergefahren! Wir empfehlen nach 19:00 keinen Probewettbewerb mehr zu starten.<br /> <br /> Die Wettbewerbsplattform ist spätestens morgen (22. Februar) ab 6:30 wieder erreichbar. Wir danken für euer Verständnis!
+              </div>
+            </div>
+          </div>
+          <script>
+            if (navigator.userAgent.search("-deactivated") < 0) {
+              document.getElementById("browser-notification-0").style.display = "none";
+            }
+          </script>
+        
+          <div class="columns" id="browser-notification-1">
+            <div class="column is-8 is-offset-2">
+              <div class="notification is-info">
+                Wichtiger Hinweis für <b>Firefox</b>-Nutzer: Aufgrund eines Bugs, kann es manchmal bei schnellem Wechsel zwischen den Aufgaben dazu kommen, dass die Aufgaben nicht mehr richtig dargestellt werden. In diesem Fall hilft es, den Wettbewerb in einem <b>neuen Tab</b> zu öffnen. <a href='https://bwinf.de/jugendwettbewerb/2021/firefoxhinweise/'>Mehr Informationen</a>
+              </div>
+            </div>
+          </div>
+          <script>
+            if (navigator.userAgent.search("Firefox-deactivated") < 0) {
+              document.getElementById("browser-notification-1").style.display = "none";
+            }
+          </script>
+        
+          <div class="columns" id="browser-notification-2">
+            <div class="column is-8 is-offset-2">
+              <div class="notification is-info">
+                <b>Wartungsarbeiten</b>: Am Freitag dem 2. Juli um 13:00 wird die Wettbewerbsplattform jwinf.de für Wartungsarbeiten heruntergefahren! Sie ist spätestens ab 15:00 wieder erreichbar. Wir danken für euer Verständnis!
+              </div>
+            </div>
+          </div>
+          <script>
+            if (navigator.userAgent.search("-deactivated") < 0) {
+              document.getElementById("browser-notification-2").style.display = "none";
+            }
+          </script>
+        
+          <div class="columns" id="browser-notification-3">
+            <div class="column is-8 is-offset-2">
+              <div class="notification is-info">
+                <b>Neue Struktur im Trainingsbereich</b>: Im Trainigsbereich wurden die Aufgaben in neue Trainingseinheiten eingeteilt! Dadurch sind schon bearbeitete Einheiten nicht mehr sichtbar. Du kannst deine bearbeiteten Einheiten aber im Profil noch sehen und weiterhin bearbeiten!
+              </div>
+            </div>
+          </div>
+          <script>
+            if (navigator.userAgent.search("-deactivated") < 0) {
+              document.getElementById("browser-notification-3").style.display = "none";
+            }
+          </script>
+        
+      
+
+      
+      
+      
+
+      <div class="columns">
+
+        <div class="column is-8 is-offset-2">
+          <div class="tile is-ancestor">
+            <div class="tile is-vertical">
+              <div class="tile">
+                <div class="tile is-6 is-parent">
+                  <a href="/contest/?filter=open" class="tile is-child notification hoverfade" style="background-color:#e5fae5">
+                    <h3 class="title is-4">Trainingsaufgaben</h3>
+                    <h4 class="subtitle is-5">Zum Ausprobieren und Üben</h4>
+                    <img src="/static/images/green.png" style="width:30%; margin:10px 35% 25px">
+                    <img src="/static/images/icons/arrow.svg" style="vertical-align: text-bottom; filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height:2.5ex;">
+                    Zu den Trainingsaufgaben …
+                  </a>
+                </div>
+                <div class="tile is-parent is-6">
+                  <a href="/contest/?filter=current" class="tile is-child notification hoverfade" style="background-color:#e5f0f8">
+                    <h3 class="title is-4">Aktuelle Wettbewerbe</h3>
+                    <h4 class="subtitle is-5">Jugendwettbewerb Informatik</h4>
+                    <img src="/static/images/white.png" style="width:30%; margin:10px 35% 25px">
+                    <img src="/static/images/icons/arrow.svg" style="vertical-align: text-bottom; filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height:2.5ex;">
+                    Zu den Wettbewerben …
+                  </a>
+                </div>
+              </div>
+              <div class="tile">
+                
+                  <div class="tile is-6 is-parent">
+                    <a href="https://bwinf.de/jugendwettbewerb" class="tile is-child notification hoverfade">
+                      <h3 class="title is-4">
+                        <img src="/static/images/icons/external-link.svg" style="vertical-align: text-bottom; filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height:2.5ex;">
+                        Informationen</h3>
+                        <img src="/static/images/logomittext.png" style="width:60%; margin: -25px 20% 25px;">
+                        <img src="/static/images/icons/external-link.svg" style="vertical-align: text-bottom; filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%); height:2.5ex;">
+                        Informationen zur Anmeldung und Teilnahme am Wettbewerb, Termine, Materialien und mehr …
+                    </a>
+                  </div>
+                
+                <div class="tile is-parent is-6">
+                  <a href="/contest/?filter=challenge" class="tile is-child notification hoverfade" style="background-color: #fff1ea">
+                    <h3 class="title is-4">Herausforderungen</h3>
+                    <h4 class="subtitle is-5">Aufgaben mit und ohne Zeitbeschränkung</h4>
+                    <img src="/static/images/gross.png" style="width:30%; margin: 0px 35% 37px;">
+                    <img src="/static/images/icons/arrow.svg" style="vertical-align: text-bottom; filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height:2.5ex;">
+                    Zu den Herausforderungen …
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <footer class="footer" style="margin-top: 150px;">
+      <div class="content has-text-centered">
+        <p style="margin-bottom:80px; margin-top:0px">
+          
+          
+            <a href="https://git.bwinf.de/bwinf/medal">Quellcode</a>
+          
+          
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <a href='https://bwinf.de/jugendwettbewerb/datenschutz/'>Datenschutz</a>
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <a href='https://bwinf.de/impressum/'>Impressum</a>
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <nobr>🖂 <a href='mailto:jugendwettbewerb@bwinf.de'>jugendwettbewerb@bwinf.de</a></nobr>
+            
+          
+          
+        </p>
+        <p>
+          <img src="/static/images/dachmarke.svg" style="width:119px; height:72px;">
+        <p>
+        <p style="max-width: 1000px; margin: auto;">
+           Alle Aufgaben unter <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>.<br />
+
+           Der <strong>Jugendwettbewerb Informatik</strong> ist einer der
+          <a href="https://bwinf.de">Bundesweiten Informatikwettbewerbe</a>.
+
+          Die Bundesweiten Informatikwettbewerbe sind von der Kultusministerkonferenz geförderte Schülerwettbewerbe und stehen unter der Schirmherrschaft des Bundespräsidenten.
+        </p>
+        <p style="margin-bottom:-20px; margin-top:-35px">
+          Träger: &nbsp; &nbsp;  &nbsp;  &nbsp;
+          <a class="sponsor-item" href="https://www.gi.de/" target="_blank">
+            <img src="/static/images/traeger_tr_gi.png" alt="Logo Gesellschaft für Informatik (GI)" title="Gesellschaft für Informatik (GI)" style="vertical-align: middle; margin:35px;">
+          </a>
+          <a class="sponsor-item" href="http://www.iuk.fraunhofer.de/" target="_blank">
+            <img src="/static/images/traeger_tr_frauenhofer.png" alt="Logo Fraunhofer-Verbund IUK-Technologie" title="Fraunhofer-Verbund IUK-Technologie" style="vertical-align: middle; margin:35px;">
+          </a>
+          <a class="sponsor-item" href="https://www.mpi-inf.mpg.de/" target="_blank">
+            <img src="/static/images/traeger_tr_mpi.png" alt="Logo Max-Planck-Institut für Informatik" title="Max-Planck-Institut für Informatik" style="vertical-align: middle; margin:35px;margin-left:27px;">
+          </a>
+          <a class="sponsor-item" href="https://www.bmbf.de/" target="_blank">
+            <img src="/static/images/traeger_tr_bmbf.png" alt="Logo Bundesministerium für Bildung und Forschung" title="Bundesministerium für Bildung und Forschung" style="vertical-align: middle; margin:35px;margin-left:0px;">
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+

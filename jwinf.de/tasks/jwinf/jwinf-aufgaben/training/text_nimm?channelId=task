@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Buchstaben entnehmen</title>
+  <script>
+    window.stringsLanguage = 'de';
+  </script>
+  <script class="remove" type="text/javascript" src="../../../_common/modules/pemFioi/importModules-1.4-mobileFirst.js" id="import-modules"></script>
+  <script class="remove" type="text/javascript">
+    var modulesPath = '../../../_common/modules/';
+    importModules([
+      'jquery-1.7.1', 'JSON-js', 'raphael-2.2.1', 'beaver-task-2.0', 'jschannel', 'raphaelFactory-1.0', 'delayFactory-1.0', 'simulationFactory-1.0',
+      'platform-pr', 'buttonsAndMessages', 'beav-1.0', 'installationAPI.01', 'miniPlatform',
+      'taskStyles-mobileFirst', 'blockly-printer', 'jwinf_css'
+    ]);
+    // set Blockly as default language when none is specified through ?language=
+    importLanguageModules('blockly');
+  </script>
+  <script class="remove" type="text/javascript">
+    var json = {
+      "id": "text_nimm",
+      "language": "de",
+      "version": "de.01",
+      "authors": "Katharina Schuster",
+      "translators": [],
+      "license": "",
+      "taskPathPrefix": "",
+      "modulesPathPrefix": "",
+      "browserSupport": [],
+      "acceptedAnswers": [""],
+      "fullFeedback": true,
+      "minWidth": "auto"
+    };
+
+    window.stringsLanguage = 'de';
+    var strings = {
+      moreThan100Moves: "Vous avez cependant fait plus de 100 déplacements.",
+      notAllCellsPainted: "Das hat noch nicht ganz geklappt. Versuch es noch einmal!",
+      allCellsPainted: "Bravo! Du hast die Zeilen richtig ausgegeben!"
+    };
+  </script>
+  <script type="text/javascript" src="printer_task.js"></script>
+
+</head>
+
+<body onresize="task.displayedSubTask.updateScale()">
+  <div id="task">
+    <h1>Buchstaben entnehmen</h1>
+
+    <div id="tabsContainer"></div>
+    <div id="taskContent">
+      <div id="taskIntro">
+        <div class="easy">
+          <p>
+            Schreibe ein Programm, das eine Textzeile einliest und den 1. Buchstaben wieder ausgibt.
+          </p>
+          <p>
+            Bitte schau dir vorab die <b>Erläuterungen der Bausteine</b> unter "weitere Hinweise" an.
+          </p>
+          <div class="long">
+            <h2>Weitere Hinweise:</h2>
+            Mit dem Baustein <code>im Text Text nimm</code> kann aus einem Text ein Buchstabe an folgenden Positionen
+            entnommen werden:
+            <ul>
+              <li><code>nimm</code>: der Buchstabe wird an einer bestimmten Position entnommen.</li>
+              <li><code>nimm von hinten</code>: der Buchstabe wird an einer bestimmten Position von hinten gezählt entnommen.</li>
+              <li><code>nimm ersten</code>: der erste Buchstabe wird entommen.</li>
+              <li><code>nimm letzten</code>: der letzten Buchstabe wird entnommen.</li>
+              <li><code>nimm zufälligen</code>: ein zufälliger Buchstabe wird entnommen.</li>
+            </ul>
+            <p>
+              Über den kleinen Pfeil, können dir verschiedenen Optionen ausgewählt werden.
+            </p>
+            <p>
+              <img data-lang="blockly" src="text_nimm.jpg" />
+            </p>
+          </div>
+        </div>
+        <div class="medium">
+          <p>
+            Schreibe ein Programm, das eine Textzeile einliest und das 4. Zeichen von hinten gezählt wieder ausgibt.
+          </p>
+        </div>
+        <div class="hard">
+          <p>
+            Schreibe ein Programm, das die Wörter einliest und abwechselnd den ersten und letzten Buchstaben ausgibt.
+        </div>
+        <div>
+          <p>
+            <i>Beachte: Dein Programm muss mit allen Testfällen zurechtkommen.</i>
+          </p>
+        </div>
+      </div>
+      <div id="gridContainer"></div>
+      <div id="blocklyLibContent"></div>
+    </div>
+  </div><!-- task -->
+</body>
+
+</html>

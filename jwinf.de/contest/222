@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en" style="background-color: #fafafa;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=450, maximum-scale=1">
+    
+        <title>Jugendwettbewerb Informatik – Probewettbewerb Informatik 2023 Runde 2</title>
+    
+    <link rel="stylesheet" href="/static/lib/bulma/medal-bulma-0.9.4.css">
+    <link rel="icon" href="/static/images/favicon.png" type="image/png">
+    <style>
+       ::placeholder {
+          color: #888 !important;
+       }
+       .blogin {
+          padding: 0px;
+          margin: -20px;
+       }
+       .hoverfade:hover {
+         filter: brightness(95%) saturate(110%);
+       }
+    </style>
+  </head>
+  <body style="background: white;">
+    <div class="container" style="padding: 1.5rem;">
+      <div class="columns">
+        <div class="column is-7">
+          
+            <a href="/">
+              <img style="float:left; margin-right: 10px; height: 70px;" src="/static/images/logo.png">
+            </a>
+          
+          <h1 class="title">Jugendwettbewerb Informatik</h1>
+          <h2 class="subtitle">Programmieren – leichter, als du denkst!</h2>
+        </div>
+        <div class="column is-5">
+          
+            
+            
+            <form action="/clogin" method="post" autocomplete="off" class="columns blogin">
+              <div class="column is-8"><input class="input is-small" type="text" name="code" placeholder="Gruppencode oder Logincode" autofocus></div>
+              <div class="column"><input class="button is-small is-success" type="submit" value="↪ &nbsp; Login" style="font-weight:bold;">
+                 &nbsp; <a href="https://bwinf.de/jugendwettbewerb/jwinflogin">
+                  <img src="/static/images/icons/help.svg" style="filter: invert(43%) sepia(45%) saturate(3202%) hue-rotate(189deg) brightness(88%) contrast(86%);height: 2.5ex;">
+                </a>
+              </div>
+            </form>
+            
+              
+                <div class="columns blogin">
+                  <div class="column">
+                     <a class="button is-small is-info"  style="font-weight:bold;float:right;" href="https://login.bwinf.de/app/PMS/wa/OAuth2/authorize?client_id=bwinf-junior-league&amp;scope=authenticate&amp;response_type=code&amp;state=42&amp;redirect_uri=https://jwinf.de/oauth/pms/">BWINF-Login / Lehrkraft-Login</a>
+                     <div style="clear:both;"></div>
+                  </div>
+                </div>
+              
+            
+            
+          
+        </div>
+      </div>
+
+      
+
+
+
+
+
+  <div class="columns">
+    <div class="column is-8 is-offset-2">
+      <h3 class="title is-4">Wettbewerb: Probewettbewerb Informatik 2023 Runde 2</h3>
+      <h4 class="subtitle is-5">Dauer: 30 Minuten</h4>
+    </div>
+  </div>
+
+  
+
+  
+    <div class="columns">
+      <div class="column is-6 is-offset-3">
+        <div class="notification is-success">
+          <h3 class='title is-5'>Wusstest du schon, …</h3><p>… dass du Programme zwischen den verschiedenen Aufgabenversionen <b>kopieren</b> kannst? Nutze dazu einfach das Aufgabenmenü, oben rechts in der <nobr>Aufgabe: <img src='/tasks/jwinf/jwinf-aufgaben/contest_2022/menu.png' style='height: 2em;vertical-align: middle;'>,</nobr> oder die Tastenkürzel Strg+C und Strg+V (Cmd+C und Cmd+V).</p>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+  <div class="columns" id="bare_content">
+
+
+
+
+
+    <div class="column is-6 is-offset-3">
+      <div style="min-height: 400px; margin-bottom:100px;" class="content">
+
+        
+
+          
+            
+              <p>Du kannst diesen Wettbewerb nicht starten.</p>
+            
+            
+              <p>Der Wettbewerb ist bereits beendet.</p>
+            
+          
+
+          
+            
+          
+        
+      </div>
+    </div>
+
+
+  </div>
+
+  <script>
+    // Reload page content as soon as you come back from another task via the back button in order to show the newly achieved stars
+    function reload_content(event) {
+      var request = new XMLHttpRequest();
+      request.open("GET","?bare&r=" + Math.random().toString(36).substr(2));
+      request.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+      request.addEventListener('load', function(event) {
+        if (request.status >= 200 && request.status < 300) {
+          document.getElementById("bare_content").innerHTML = request.responseText;
+        } else {
+          console.warn(request.statusText, request.responseText);
+        }
+      });
+      request.send();
+    }
+
+    window.onpageshow = reload_content;
+  </script>
+
+
+
+
+
+
+    </div>
+    <footer class="footer" style="margin-top: 150px;">
+      <div class="content has-text-centered">
+        <p style="margin-bottom:80px; margin-top:0px">
+          
+          
+            <a href="https://git.bwinf.de/bwinf/medal">Quellcode</a>
+          
+          
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <a href='https://bwinf.de/jugendwettbewerb/datenschutz/'>Datenschutz</a>
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <a href='https://bwinf.de/impressum/'>Impressum</a>
+            
+              &nbsp;  &nbsp;  ·  &nbsp;  &nbsp;
+              <nobr>🖂 <a href='mailto:jugendwettbewerb@bwinf.de'>jugendwettbewerb@bwinf.de</a></nobr>
+            
+          
+          
+        </p>
+        <p>
+          <img src="/static/images/dachmarke.svg" style="width:119px; height:72px;">
+        <p>
+        <p style="max-width: 1000px; margin: auto;">
+           Alle Aufgaben unter <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>.<br />
+
+           Der <strong>Jugendwettbewerb Informatik</strong> ist einer der
+          <a href="https://bwinf.de">Bundesweiten Informatikwettbewerbe</a>.
+
+          Die Bundesweiten Informatikwettbewerbe sind von der Kultusministerkonferenz geförderte Schülerwettbewerbe und stehen unter der Schirmherrschaft des Bundespräsidenten.
+        </p>
+        <p style="margin-bottom:-20px; margin-top:-35px">
+          Träger: &nbsp; &nbsp;  &nbsp;  &nbsp;
+          <a class="sponsor-item" href="https://www.gi.de/" target="_blank">
+            <img src="/static/images/traeger_tr_gi.png" alt="Logo Gesellschaft für Informatik (GI)" title="Gesellschaft für Informatik (GI)" style="vertical-align: middle; margin:35px;">
+          </a>
+          <a class="sponsor-item" href="http://www.iuk.fraunhofer.de/" target="_blank">
+            <img src="/static/images/traeger_tr_frauenhofer.png" alt="Logo Fraunhofer-Verbund IUK-Technologie" title="Fraunhofer-Verbund IUK-Technologie" style="vertical-align: middle; margin:35px;">
+          </a>
+          <a class="sponsor-item" href="https://www.mpi-inf.mpg.de/" target="_blank">
+            <img src="/static/images/traeger_tr_mpi.png" alt="Logo Max-Planck-Institut für Informatik" title="Max-Planck-Institut für Informatik" style="vertical-align: middle; margin:35px;margin-left:27px;">
+          </a>
+          <a class="sponsor-item" href="https://www.bmbf.de/" target="_blank">
+            <img src="/static/images/traeger_tr_bmbf.png" alt="Logo Bundesministerium für Bildung und Forschung" title="Bundesministerium für Bildung und Forschung" style="vertical-align: middle; margin:35px;margin-left:0px;">
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
